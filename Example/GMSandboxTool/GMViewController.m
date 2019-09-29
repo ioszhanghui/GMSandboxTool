@@ -19,7 +19,6 @@
 {
     [super viewDidLoad];
     
-    
     NSArray * documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString * documentDirectory = [documentPaths objectAtIndex:0];
     NSLog(@"document === %@",documentDirectory);
