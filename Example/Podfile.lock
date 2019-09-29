@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMSandboxTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMSandboxTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GMSandboxTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMSandboxTool: d9dbd20fcdea6ec66c64f5b836f86f6a1985e374
+
+PODFILE CHECKSUM: cafa482fa48773b16a5e6cf333ab3b36f4550977
+
+COCOAPODS: 1.5.3

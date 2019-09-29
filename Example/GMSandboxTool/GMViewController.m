@@ -7,6 +7,7 @@
 //
 
 #import "GMViewController.h"
+#import "GMFileUtil.h"
 
 @interface GMViewController ()
 
@@ -17,13 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    
+    NSArray * documentPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString * documentDirectory = [documentPaths objectAtIndex:0];
+    NSLog(@"document === %@",documentDirectory);
+    
+    NSLog(@"Home****%@",[GMFileUtil getSandboxHome]);
+    NSLog(@"Docutment****%@",[GMFileUtil getSandboxDocutment]);
+    NSLog(@"Temp****%@",[GMFileUtil getSandboxTemp]);
+    NSLog(@"Cache****%@",[GMFileUtil getSandboxCache]);
+    NSLog(@"Libray****%@",[GMFileUtil getSandboxLibray]);
+    NSLog(@"Libray****%@",[GMFileUtil getSandboxLibray]);
+    NSString * filePath = [[GMFileUtil getSandboxDocutment] stringByAppendingPathComponent:@"00.jpg"];
+NSLog(@"isFileExist%d",[GMFileUtil isFileExist:filePath]);
+    NSLog(@"isFileExist%d",[GMFileUtil isFileExist:filePath]);
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
 @end

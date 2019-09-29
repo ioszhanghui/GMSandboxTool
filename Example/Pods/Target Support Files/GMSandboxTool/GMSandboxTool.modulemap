@@ -1,0 +1,6 @@
+framework module GMSandboxTool {
+  umbrella header "GMSandboxTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

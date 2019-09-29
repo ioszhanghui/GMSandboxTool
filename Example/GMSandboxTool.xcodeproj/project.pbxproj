@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		332C3CD0581BCAB9847C47DC /* GMSandboxTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMSandboxTool.podspec; path = ../GMSandboxTool.podspec; sourceTree = "<group>"; };
+		332C3CD0581BCAB9847C47DC /* GMSandboxTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMSandboxTool.podspec; path = ../GMSandboxTool.podspec; sourceTree = "<group>"; };
 		36C1EBC26A7033D6ACE3CAD1 /* Pods-GMSandboxTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSandboxTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMSandboxTool_Example/Pods-GMSandboxTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GMSandboxTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMSandboxTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		985495C415E5113A1285623C /* Pods-GMSandboxTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSandboxTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMSandboxTool_Example/Pods-GMSandboxTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C56B814F41E47262957674C /* Pods-GMSandboxTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMSandboxTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMSandboxTool_Tests/Pods-GMSandboxTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E68BAA3F5F5434AD9FFD525 /* Pods_GMSandboxTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMSandboxTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA23EF5CD501765F01F84B4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA23EF5CD501765F01F84B4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CFC130E6E5F0D0849F7C2856 /* Pods_GMSandboxTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMSandboxTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDA1F4B1697888F516F30B87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FDA1F4B1697888F516F30B87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ioszhanghui@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8LSS8PHWW5;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,9 +507,11 @@
 			baseConfigurationReference = 985495C415E5113A1285623C /* Pods-GMSandboxTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LSS8PHWW5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMSandboxTool/GMSandboxTool-Prefix.pch";
 				INFOPLIST_FILE = "GMSandboxTool/GMSandboxTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,9 +525,11 @@
 			baseConfigurationReference = 36C1EBC26A7033D6ACE3CAD1 /* Pods-GMSandboxTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8LSS8PHWW5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GMSandboxTool/GMSandboxTool-Prefix.pch";
 				INFOPLIST_FILE = "GMSandboxTool/GMSandboxTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
