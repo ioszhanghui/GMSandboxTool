@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 沙盒路径
 文件查看
+源码组件和静态库组件
                        DESC
 
   s.homepage         = 'https://github.com/ioszhanghui/GMSandboxTool.git'
@@ -32,7 +33,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.requires_arc = true
 
-    s.source_files = 'GMSandboxTool/Classes/**/*'
+#s.source_files = 'GMSandboxTool/Classes/**/*'
     s.vendored_frameworks = 'GMSandboxTool/Classes/*.framework'# 引用自己生成的framework
 
   
