@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GMSandboxTool'
-  s.version          = '0.1.0'
-  s.summary          = '文件处理'
+  s.version          = '0.2.0'
+  s.summary          = '文件处理 源码组件和静态库组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,7 +32,9 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.requires_arc = true
 
-  s.source_files = 'GMSandboxTool/Classes/**/*'
+    s.source_files = 'GMSandboxTool/Classes/**/*'
+    s.vendored_frameworks = 'GMSandboxTool/Classes/*.framework'# 引用自己生成的framework
+
   
   # s.resource_bundles = {
   #   'GMSandboxTool' => ['GMSandboxTool/Assets/*.png']

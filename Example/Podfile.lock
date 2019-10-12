@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GMSandboxTool (0.1.0)
+  - GMSandboxTool (0.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GMSandboxTool: d9dbd20fcdea6ec66c64f5b836f86f6a1985e374
+  GMSandboxTool: f03d1e5549483c898a8eed9a37a47be98c88e9e0
 
-PODFILE CHECKSUM: cafa482fa48773b16a5e6cf333ab3b36f4550977
+PODFILE CHECKSUM: 572308a7b84774d4e86cb919591c7cbd8a3630a6
 
 COCOAPODS: 1.5.3

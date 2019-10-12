@@ -1,9 +1,9 @@
 {
   "name": "GMSandboxTool",
-  "version": "0.1.0",
-  "summary": "A short description of GMSandboxTool.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ioszhanghui@163.com/GMSandboxTool",
+  "version": "0.2.0",
+  "summary": "文件处理",
+  "description": "沙盒路径\n文件查看",
+  "homepage": "https://github.com/ioszhanghui/GMSandboxTool.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "ioszhanghui@163.com": "yomingyo@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ioszhanghui@163.com/GMSandboxTool.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ioszhanghui/GMSandboxTool.git",
+    "tag": "0.2.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "GMSandboxTool/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "GMSandboxTool/Classes/**/*.{h,m}"
 }
