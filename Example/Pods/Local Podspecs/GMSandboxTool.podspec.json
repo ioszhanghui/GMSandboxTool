@@ -1,8 +1,8 @@
 {
   "name": "GMSandboxTool",
   "version": "0.2.0",
-  "summary": "文件处理",
-  "description": "沙盒路径\n文件查看",
+  "summary": "文件处理 源码组件和静态库组件",
+  "description": "沙盒路径\n文件查看\n源码组件和静态库组件",
   "homepage": "https://github.com/ioszhanghui/GMSandboxTool.git",
   "license": {
     "type": "MIT",
@@ -19,5 +19,5 @@
     "ios": "9.0"
   },
   "requires_arc": true,
-  "source_files": "GMSandboxTool/Classes/**/*.{h,m}"
+  "source_files": "GMSandboxTool/Classes/BaseCode/**/*"
 }
