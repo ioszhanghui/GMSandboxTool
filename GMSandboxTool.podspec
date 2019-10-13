@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
     s.requires_arc = true
 
-    s.source_files = 'GMSandboxTool/Classes/BaseCode/**/*'
-    #s.vendored_frameworks = 'GMSandboxTool/Classes/StaticFramework/*.framework'# 引用自己生成的framework
+    #s.source_files = 'GMSandboxTool/Classes/BaseCode/**/*'
+    s.vendored_frameworks = 'GMSandboxTool/Classes/StaticFramework/*.framework'# 引用自己生成的framework
 
   
   # s.resource_bundles = {

@@ -19,5 +19,5 @@
     "ios": "9.0"
   },
   "requires_arc": true,
-  "source_files": "GMSandboxTool/Classes/BaseCode/**/*"
+  "vendored_frameworks": "GMSandboxTool/Classes/StaticFramework/*.framework"
 }

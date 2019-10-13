@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		08EA10CC6AF34A0E45EA853BA043FE79 /* Pods-GMSandboxTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1781D3DF5B71EEDFA55276B8F73B3FE8 /* Pods-GMSandboxTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
@@ -15,40 +16,27 @@
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3C96A394D59E49E1E072D82F07475EB8 /* Pods-GMSandboxTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EACEA62BF9665F4AF2EBF44B12EEB9 /* Pods-GMSandboxTool_Tests-dummy.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		45026793C6A71DD051A1B2C664121BAD /* Pods-GMSandboxTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1781D3DF5B71EEDFA55276B8F73B3FE8 /* Pods-GMSandboxTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7A06A9BEF41379247FD23B5FC14C6A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		9180B8AB8BE5AB5EEA5C7DF61D83F81A /* Pods-GMSandboxTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED264997BB13EFF6B5ACD18497ACA9F /* Pods-GMSandboxTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A95146C2FA9CD12CBCEEA2AEA91EF092 /* GMSandboxTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A12488367A57ADF8C7BB346F74FE8A9 /* GMSandboxTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8820257591423E86F0A53CEA1A0F6CA /* Pods-GMSandboxTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EB113213292B3E0C31CDB8746A3E /* Pods-GMSandboxTool_Example-dummy.m */; };
-		BA43BE2E78D45CCB188438E7E5906FAB /* GMSandboxTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEEEDA587DBFA71980A9636D9CBDA0E /* GMSandboxTool-dummy.m */; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3309CCD8D8F640850852C2582F9E5B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		C54ED8DD455C036184157830E3B654F5 /* GMFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 531A4BEDE2A51E7D6CEBEA0CFC119A43 /* GMFileUtil.m */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		F35D56E48E5A36CD2A5DCF7D5EE25D5A /* GMFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB8BF3DB6668AF537F344D99547EE78 /* GMFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD5B1EFBBAF2E6007FFBB960C45B7CA3 /* Pods-GMSandboxTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75EB113213292B3E0C31CDB8746A3E /* Pods-GMSandboxTool_Example-dummy.m */; };
+		E0013A9424C1412B8AFE0549B648AD05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		FCEB3F926ADC54AE5CE42147D1F6B9EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3815316C56FAB8FF3B3488BBB3ECAD16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EF9749867023CF8548C677790CD1C098;
-			remoteInfo = GMSandboxTool;
-		};
 		BA1F2801127174F8F53A266BB7A3D8E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -60,7 +48,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4956167335C5C5F9EBEDE56BDB068D70;
+			remoteGlobalIDString = 806A486ADD570113C2D001157DAC314A;
 			remoteInfo = "Pods-GMSandboxTool_Example";
 		};
 /* End PBXContainerItemProxy section */
@@ -70,15 +58,13 @@
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		16BDB655071FE3C431D39EE8E38B3126 /* GMSandboxTool.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GMSandboxTool.framework; path = GMSandboxTool/Classes/StaticFramework/GMSandboxTool.framework; sourceTree = "<group>"; };
 		1781D3DF5B71EEDFA55276B8F73B3FE8 /* Pods-GMSandboxTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMSandboxTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		19EACEA62BF9665F4AF2EBF44B12EEB9 /* Pods-GMSandboxTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMSandboxTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		1A12488367A57ADF8C7BB346F74FE8A9 /* GMSandboxTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMSandboxTool-umbrella.h"; sourceTree = "<group>"; };
-		1C2C1BBD2DB5D1F5AA6A049ED1617FE6 /* GMSandboxTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMSandboxTool.modulemap; sourceTree = "<group>"; };
 		20D086359A60E1B2B73BFA4E5CA7D9DF /* Pods-GMSandboxTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMSandboxTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		214457A1DA3559F521ADEF066F7E14F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23F2A96267A4AE189C9993A584C2B46C /* Pods-GMSandboxTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSandboxTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		2ACFA6774B2BCDBFCFBAF8F985672F06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		3898908FA9C44E1EE97B835E134EC83E /* GMSandboxTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMSandboxTool.framework; path = GMSandboxTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
@@ -86,58 +72,44 @@
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4B75EB113213292B3E0C31CDB8746A3E /* Pods-GMSandboxTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMSandboxTool_Example-dummy.m"; sourceTree = "<group>"; };
-		4E5F19E62872517256F082AE9046C190 /* GMSandboxTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GMSandboxTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		531A4BEDE2A51E7D6CEBEA0CFC119A43 /* GMFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMFileUtil.m; path = GMSandboxTool/Classes/BaseCode/GMFileUtil.m; sourceTree = "<group>"; };
+		5223339AF72D46103CF5B15847795A7F /* GMSandboxTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GMSandboxTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		536E0D391D11BE4B8FFBE97BE9C42DAB /* Pods-GMSandboxTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMSandboxTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5DCD99DE7D91D80E5ED9137CF050F987 /* Pods_GMSandboxTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMSandboxTool_Tests.framework; path = "Pods-GMSandboxTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAE7C6CD6474887EEE3D8D65D657A48 /* Pods-GMSandboxTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMSandboxTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F7640971DECACC664802E24A384F157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A58CEAFA86813FA794B97851EEFEE8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7C146A8CADAF307695618CE67FC56A43 /* Pods-GMSandboxTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSandboxTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7C897ECA8E77896675D1D588E19A6A71 /* Pods-GMSandboxTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSandboxTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		874B5E485F0878BDCCCFC5081321A866 /* Pods-GMSandboxTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMSandboxTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		87B177989122F3AE9CFE0EFB3859926A /* Pods_GMSandboxTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMSandboxTool_Example.framework; path = "Pods-GMSandboxTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CB8BF3DB6668AF537F344D99547EE78 /* GMFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMFileUtil.h; path = GMSandboxTool/Classes/BaseCode/GMFileUtil.h; sourceTree = "<group>"; };
 		8ED264997BB13EFF6B5ACD18497ACA9F /* Pods-GMSandboxTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMSandboxTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9781981DD1EB001DF23D489691F5C261 /* Pods-GMSandboxTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMSandboxTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A5ADE85EAB5D02CFC6BFD333E8FD6976 /* Pods-GMSandboxTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMSandboxTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A65132185185889E662C425AA8F0749E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AAC1C38A282974A99BEDF46DB9289DB7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87B4F3BA73CAA63E8E862916C43DDC /* Pods-GMSandboxTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMSandboxTool_Example.modulemap"; sourceTree = "<group>"; };
-		AFEEEDA587DBFA71980A9636D9CBDA0E /* GMSandboxTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMSandboxTool-dummy.m"; sourceTree = "<group>"; };
+		B60060CFA4DAB5D81F3437A79A0155DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BF2CE30092A575BD586BF6BBEEB47C54 /* GMSandboxTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMSandboxTool.xcconfig; sourceTree = "<group>"; };
 		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C96B63994CDC95D0E697B29099A33554 /* Pods_GMSandboxTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMSandboxTool_Example.framework; path = "Pods-GMSandboxTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DE2052E1C8667DB093AA2FEC89B6E197 /* Pods-GMSandboxTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSandboxTool_Example-resources.sh"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E79855374C8ABD684311538BBE99050B /* Pods-GMSandboxTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMSandboxTool_Tests.modulemap"; sourceTree = "<group>"; };
-		EB55372C85F97A4DF9EFCEEA7B7B46A9 /* GMSandboxTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMSandboxTool-prefix.pch"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		EF937D0842D80FF4AAAF21AB904A6D13 /* Pods_GMSandboxTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMSandboxTool_Tests.framework; path = "Pods-GMSandboxTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F77D57722019166796DCC11D76504D06 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9234CFDDE41C60AFE515804C68635FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1215349C59155661C5786EB6B3A6C600 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7A06A9BEF41379247FD23B5FC14C6A1E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,11 +121,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690B6400D214747611030F16041AAB57 /* Frameworks */ = {
+		C85A3AFBED7AB98A2EA5B7D93147A458 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3309CCD8D8F640850852C2582F9E5B5 /* Foundation.framework in Frameworks */,
+				E0013A9424C1412B8AFE0549B648AD05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,17 +140,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0059EA7CF1D3C32A23D0F44E47EF3AFD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F77D57722019166796DCC11D76504D06 /* FBSnapshotTestCase.framework */,
-				3898908FA9C44E1EE97B835E134EC83E /* GMSandboxTool.framework */,
-				87B177989122F3AE9CFE0EFB3859926A /* Pods_GMSandboxTool_Example.framework */,
-				5DCD99DE7D91D80E5ED9137CF050F987 /* Pods_GMSandboxTool_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		0D200B7069575EAEEA738C2A7228D876 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +155,16 @@
 				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21251D158E872D58D70215238E622C7D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5223339AF72D46103CF5B15847795A7F /* GMSandboxTool.podspec */,
+				2ACFA6774B2BCDBFCFBAF8F985672F06 /* LICENSE */,
+				B60060CFA4DAB5D81F3437A79A0155DE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
@@ -232,38 +203,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4A7AAEC890F7A65FF5E538422DBF6664 /* Pod */ = {
+		7818189EE195D86148DD1442C106D777 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E5F19E62872517256F082AE9046C190 /* GMSandboxTool.podspec */,
-				7A58CEAFA86813FA794B97851EEFEE8C /* LICENSE */,
-				A65132185185889E662C425AA8F0749E /* README.md */,
+				A2782C5B91488E409867AE45AD30C0FE /* GMSandboxTool */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		53F7120AA967A86FDB115DBA8B23C88B /* Support Files */ = {
+		7AFFF15BF5416CCF644006DF44B7AB65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C2C1BBD2DB5D1F5AA6A049ED1617FE6 /* GMSandboxTool.modulemap */,
-				BF2CE30092A575BD586BF6BBEEB47C54 /* GMSandboxTool.xcconfig */,
-				AFEEEDA587DBFA71980A9636D9CBDA0E /* GMSandboxTool-dummy.m */,
-				EB55372C85F97A4DF9EFCEEA7B7B46A9 /* GMSandboxTool-prefix.pch */,
-				1A12488367A57ADF8C7BB346F74FE8A9 /* GMSandboxTool-umbrella.h */,
-				214457A1DA3559F521ADEF066F7E14F7 /* Info.plist */,
+				AAC1C38A282974A99BEDF46DB9289DB7 /* FBSnapshotTestCase.framework */,
+				C96B63994CDC95D0E697B29099A33554 /* Pods_GMSandboxTool_Example.framework */,
+				EF937D0842D80FF4AAAF21AB904A6D13 /* Pods_GMSandboxTool_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GMSandboxTool";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CDBFCC9E8466569FA8B15B06C496993E /* Development Pods */,
+				7818189EE195D86148DD1442C106D777 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				0059EA7CF1D3C32A23D0F44E47EF3AFD /* Products */,
+				7AFFF15BF5416CCF644006DF44B7AB65 /* Products */,
 				0D200B7069575EAEEA738C2A7228D876 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -294,24 +259,22 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		9F9623FA15D16552910B2065142AA743 /* GMSandboxTool */ = {
+		A13E9DAD19C32B24027574C9575A5820 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8CB8BF3DB6668AF537F344D99547EE78 /* GMFileUtil.h */,
-				531A4BEDE2A51E7D6CEBEA0CFC119A43 /* GMFileUtil.m */,
-				4A7AAEC890F7A65FF5E538422DBF6664 /* Pod */,
-				53F7120AA967A86FDB115DBA8B23C88B /* Support Files */,
+				16BDB655071FE3C431D39EE8E38B3126 /* GMSandboxTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2782C5B91488E409867AE45AD30C0FE /* GMSandboxTool */ = {
+			isa = PBXGroup;
+			children = (
+				A13E9DAD19C32B24027574C9575A5820 /* Frameworks */,
+				21251D158E872D58D70215238E622C7D /* Pod */,
 			);
 			name = GMSandboxTool;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		CDBFCC9E8466569FA8B15B06C496993E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9F9623FA15D16552910B2065142AA743 /* GMSandboxTool */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EF09975350C6B34DCA84E87D785C0198 /* Pods-GMSandboxTool_Tests */ = {
@@ -364,11 +327,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		567510738C5280C42AF6BFDFA964C28B /* Headers */ = {
+		34158F583428F6A37B72A9510958DB7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45026793C6A71DD051A1B2C664121BAD /* Pods-GMSandboxTool_Example-umbrella.h in Headers */,
+				08EA10CC6AF34A0E45EA853BA043FE79 /* Pods-GMSandboxTool_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,15 +347,6 @@
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A62B956F56A590905FC657736B245F68 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F35D56E48E5A36CD2A5DCF7D5EE25D5A /* GMFileUtil.h in Headers */,
-				A95146C2FA9CD12CBCEEA2AEA91EF092 /* GMSandboxTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,25 +375,24 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = F77D57722019166796DCC11D76504D06 /* FBSnapshotTestCase.framework */;
+			productReference = AAC1C38A282974A99BEDF46DB9289DB7 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4956167335C5C5F9EBEDE56BDB068D70 /* Pods-GMSandboxTool_Example */ = {
+		806A486ADD570113C2D001157DAC314A /* Pods-GMSandboxTool_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E81BAA7E68ED5B6B7710165BF6B5B622 /* Build configuration list for PBXNativeTarget "Pods-GMSandboxTool_Example" */;
+			buildConfigurationList = CAEA31C25A5A4CB3BC1AEB853925C22E /* Build configuration list for PBXNativeTarget "Pods-GMSandboxTool_Example" */;
 			buildPhases = (
-				60DE8537ACF77283FD63AFA81CBDD264 /* Sources */,
-				690B6400D214747611030F16041AAB57 /* Frameworks */,
-				567510738C5280C42AF6BFDFA964C28B /* Headers */,
+				D117540502360AD1348C2D51F6FA695C /* Sources */,
+				C85A3AFBED7AB98A2EA5B7D93147A458 /* Frameworks */,
+				34158F583428F6A37B72A9510958DB7F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2C97273DE7BCB05B1594E823BD3A1EB5 /* PBXTargetDependency */,
 			);
 			name = "Pods-GMSandboxTool_Example";
 			productName = "Pods-GMSandboxTool_Example";
-			productReference = 87B177989122F3AE9CFE0EFB3859926A /* Pods_GMSandboxTool_Example.framework */;
+			productReference = C96B63994CDC95D0E697B29099A33554 /* Pods_GMSandboxTool_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A29EA5D5F4E89E2DE5A0B1D9F024E869 /* Pods-GMSandboxTool_Tests */ = {
@@ -458,24 +411,7 @@
 			);
 			name = "Pods-GMSandboxTool_Tests";
 			productName = "Pods-GMSandboxTool_Tests";
-			productReference = 5DCD99DE7D91D80E5ED9137CF050F987 /* Pods_GMSandboxTool_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EF9749867023CF8548C677790CD1C098 /* GMSandboxTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 29E8D5DE84E8F43459DBC3BE5866E538 /* Build configuration list for PBXNativeTarget "GMSandboxTool" */;
-			buildPhases = (
-				AEF8EF18C956B9A532658CA706F33BCE /* Sources */,
-				1215349C59155661C5786EB6B3A6C600 /* Frameworks */,
-				A62B956F56A590905FC657736B245F68 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GMSandboxTool;
-			productName = GMSandboxTool;
-			productReference = 3898908FA9C44E1EE97B835E134EC83E /* GMSandboxTool.framework */;
+			productReference = EF937D0842D80FF4AAAF21AB904A6D13 /* Pods_GMSandboxTool_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -495,27 +431,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0059EA7CF1D3C32A23D0F44E47EF3AFD /* Products */;
+			productRefGroup = 7AFFF15BF5416CCF644006DF44B7AB65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				EF9749867023CF8548C677790CD1C098 /* GMSandboxTool */,
-				4956167335C5C5F9EBEDE56BDB068D70 /* Pods-GMSandboxTool_Example */,
+				806A486ADD570113C2D001157DAC314A /* Pods-GMSandboxTool_Example */,
 				A29EA5D5F4E89E2DE5A0B1D9F024E869 /* Pods-GMSandboxTool_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60DE8537ACF77283FD63AFA81CBDD264 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8820257591423E86F0A53CEA1A0F6CA /* Pods-GMSandboxTool_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7D1144E93692CD8EE8355D3E0308D934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,12 +451,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEF8EF18C956B9A532658CA706F33BCE /* Sources */ = {
+		D117540502360AD1348C2D51F6FA695C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C54ED8DD455C036184157830E3B654F5 /* GMFileUtil.m in Sources */,
-				BA43BE2E78D45CCB188438E7E5906FAB /* GMSandboxTool-dummy.m in Sources */,
+				DD5B1EFBBAF2E6007FFBB960C45B7CA3 /* Pods-GMSandboxTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,12 +478,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C97273DE7BCB05B1594E823BD3A1EB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GMSandboxTool;
-			target = EF9749867023CF8548C677790CD1C098 /* GMSandboxTool */;
-			targetProxy = 3815316C56FAB8FF3B3488BBB3ECAD16 /* PBXContainerItemProxy */;
-		};
 		9AE1780E6CA43AC7609427B857472FE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
@@ -567,7 +487,7 @@
 		A1B38BC70DFD7FF2AD457C6E20AC63D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GMSandboxTool_Example";
-			target = 4956167335C5C5F9EBEDE56BDB068D70 /* Pods-GMSandboxTool_Example */;
+			target = 806A486ADD570113C2D001157DAC314A /* Pods-GMSandboxTool_Example */;
 			targetProxy = FC780C7DBC76B61D954E9324CC8EA6C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -703,103 +623,6 @@
 			};
 			name = Debug;
 		};
-		4B7A33B45C7F7C4B2E221F79454AB902 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E235DDC55DD1AE49D484FB7DA707B64 /* Pods-GMSandboxTool_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMSandboxTool_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMSandboxTool_Example/Pods-GMSandboxTool_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		569AB9416961AFBBE097CEA5B2EB70F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2CE30092A575BD586BF6BBEEB47C54 /* GMSandboxTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMSandboxTool/GMSandboxTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMSandboxTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMSandboxTool/GMSandboxTool.modulemap";
-				PRODUCT_MODULE_NAME = GMSandboxTool;
-				PRODUCT_NAME = GMSandboxTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B1F03B05DB5E2690E828BEE6CAD5B03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF2CE30092A575BD586BF6BBEEB47C54 /* GMSandboxTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMSandboxTool/GMSandboxTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMSandboxTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMSandboxTool/GMSandboxTool.modulemap";
-				PRODUCT_MODULE_NAME = GMSandboxTool;
-				PRODUCT_NAME = GMSandboxTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8D625B6DC7895ECF0AA48E4385043656 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 536E0D391D11BE4B8FFBE97BE9C42DAB /* Pods-GMSandboxTool_Tests.debug.xcconfig */;
@@ -835,9 +658,9 @@
 			};
 			name = Debug;
 		};
-		AE7FD69A11D8D7A5CE59C3337359FC5B /* Debug */ = {
+		B9CDAA419CE65484C6C2629BD5FAA707 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 874B5E485F0878BDCCCFC5081321A866 /* Pods-GMSandboxTool_Example.debug.xcconfig */;
+			baseConfigurationReference = 3E235DDC55DD1AE49D484FB7DA707B64 /* Pods-GMSandboxTool_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -863,10 +686,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		EC2B16E08A82FFFAA496F1301724367A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -900,6 +724,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F20CD92ADD5F3FCE7A613862AE199060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874B5E485F0878BDCCCFC5081321A866 /* Pods-GMSandboxTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMSandboxTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMSandboxTool_Example/Pods-GMSandboxTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -971,15 +828,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29E8D5DE84E8F43459DBC3BE5866E538 /* Build configuration list for PBXNativeTarget "GMSandboxTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B1F03B05DB5E2690E828BEE6CAD5B03 /* Debug */,
-				569AB9416961AFBBE097CEA5B2EB70F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -989,11 +837,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E81BAA7E68ED5B6B7710165BF6B5B622 /* Build configuration list for PBXNativeTarget "Pods-GMSandboxTool_Example" */ = {
+		CAEA31C25A5A4CB3BC1AEB853925C22E /* Build configuration list for PBXNativeTarget "Pods-GMSandboxTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE7FD69A11D8D7A5CE59C3337359FC5B /* Debug */,
-				4B7A33B45C7F7C4B2E221F79454AB902 /* Release */,
+				F20CD92ADD5F3FCE7A613862AE199060 /* Debug */,
+				B9CDAA419CE65484C6C2629BD5FAA707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
